@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen bg-gray-100 mx-auto py-6">
+        <header class="mt-20">
+            <div class="relative flex justify-center">
+                <img class="absolute" src="./assets/bg.png" alt="">
+                <img class="z-10 pt-10 pl-4" src="./assets/Group.png" alt="">
+            </div>
+        </header>
+        <!-- Login Section -->
+        <div class="card w-full max-w-sm mt-5 mx-auto bg-white">
+            <form class="card-body">
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Mobile Number</span>
+                    </label>
+                    <input type="Number" placeholder="Enter your number" class="input bg-gray-100" required />
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">4 Digit Pin</span>
+                    </label>
+                    <input type="text" placeholder="Enter 4 Digit Pin" class="input bg-gray-100" required />
+                </div>
+                <div class="form-control mt-2">
+                    <button class="btn bg-blue-500 text-white text-xl">Login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
