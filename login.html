@@ -24,20 +24,21 @@
                     <label class="label">
                         <span class="label-text">Mobile Number</span>
                     </label>
-                    <input type="Number" placeholder="Enter your number" class="input bg-gray-100" required />
+                    <input value="12345678910" id="mobile-num" type="Number" placeholder="Enter your number" class="input bg-gray-100" required />
                 </div>
                 <div class="form-control">
                     <label class="label">
                         <span class="label-text">4 Digit Pin</span>
                     </label>
-                    <input type="text" placeholder="Enter 4 Digit Pin" class="input bg-gray-100" required />
+                    <input value="1235" id="pin-num" type="text" placeholder="Enter 4 Digit Pin" class="input bg-gray-100" required />
                 </div>
                 <div class="form-control mt-2">
-                    <button class="btn bg-blue-500 text-white text-xl">Login</button>
+                    <button id="login-btn" class="btn bg-blue-500 text-white text-xl">Login</button>
                 </div>
             </form>
         </div>
     </section>
+    <script src="./scripts/login.js"></script>
 </body>
 
 </html>
