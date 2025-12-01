@@ -66,61 +66,12 @@
         <!-- Latest payment -->
 
         <section id="latest-payment" class="px-5 py-6">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center pb-5">
                 <h2 class="text-xl font-bold ">Latest Payment</h2>
                 <p class="text-gray-500 text-sm font-semibold">View All</p>
             </div>
             <!-- Recent -->
-            <div class="space-y-4 pt-5">
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Electricty Bill</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Bank Deposit</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Mobile Recharge</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Gas Bill</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-            </div>
+            
         </section>
 
         <!-- Add Money -->
@@ -134,7 +85,7 @@
                         <label class="label">
                             <span class="label-text">Select A Bank</span>
                         </label>
-                        <select class="select bg-gray-100">
+                        <select id="allBank" class="select bg-gray-100">
                             <option disabled selected>Select Bank</option>
                             <option value="Bikash">Bikash</option>
                             <option value="Rocket">Rocket</option>
@@ -264,7 +215,7 @@
                         <label class="label">
                             <span class="label-text">Select To Pay</span>
                         </label>
-                        <select class="select bg-gray-100">
+                        <select  class="select bg-gray-100">
                             <option disabled selected>Select back</option>
                             <option value="Education Bill">Education Bill</option>
                             <option value="Gas Bill">Gas Bill</option>
@@ -297,61 +248,13 @@
         <!-- Transaction History-->
 
         <section id="history-section" class="px-5 py-6 hidden">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center pb-5">
                 <h2 class="text-xl font-bold ">Transaction History</h2>
                 <p class="text-gray-500 text-sm font-semibold">View All</p>
             </div>
             <!-- Recent -->
-            <div class="space-y-4 pt-5">
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Electricty Bill</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Bank Deposit</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Mobile Recharge</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-                <div class="bg-white flex justify-between p-5 items-center rounded-xl border">
-                    <div class="flex">
-                        <div class="w-10 rounded-full bg-gray-100 flex justify-center items-center">
-                            <img src="./assets/wallet1.png" />
-                        </div>
-                        <div class="pl-3">
-                            <h2 class="font-bold">Gas Bill</h2>
-                            <p class="text-xs">Today 01:44 AM</p>
-                        </div>
-                    </div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </div>
-            </div>
+            <div id="transaction"></div>    
+            
         </section>
     </main>
     <script src="./scripts/home.js"></script>
